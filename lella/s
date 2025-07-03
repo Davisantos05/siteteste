@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Amor da Minha Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>O Amor da Minha Vida</h1>
+        <p>Uma história improvável começando com apenas um grupo, mas escrita com carinho, sorrisos e sonhos compartilhados ❤️</p>
+    </header>
+
+    <section class="photo">
+        <img src="img.lella.jpeg" alt="Nosso momento especial">
+        <h2>Stella Meu Amor</h2>
+        <p>Desde que te conheci, minha vida ganhou mais cor, mais sentido, acordo animado só para te mandar aquele "Bom dia minha princesa", e muito mais amor.</p>
+    </section>
+
+    <section class="story">
+        <h2>Como Tudo Começou</h2>
+        <br>
+        <img id="foto" src="img.lella2.jpeg" alt="Nosso momento especial">
+        <p>
+            Lembro exatamente do dia em que te vi pela primeira vez, no primeiro encontro de crisma com aqueles óculos sempre lindo lendo a bíblia.
+            Seu sorriso, seu olhar, desde lá tudo em você sempre me encantou.
+            Com o tempo, descobri que por trás da sua beleza, existe uma alma linda, generosa e incrível e cuidadosa que sempre cuida e zela pelo próximo 
+            (mesmo que não goste muito kkkkk).
+        </p>
+    </section>
+
+    <section class="declaration">
+        <h2>Minha Declaração</h2>
+        <br>
+        <img id="foto" src="img.lella4.jpeg" alt="Nosso momento especial">
+        <p>
+            Você é minha inspiração diária. Meu carinho, minha força, meu abraço preferido. <br>
+            Prometo cuidar de você, te apoiar e fazer você sorrir todos os dias. Conte comigo sempre para o que precisar. <br>
+            Eu sempre serei seu amigo, seu parceiro, independente das dificuldades. <br>
+            Estarei aqui para quando você se tornar parteira e uma mãe incrível dos nossos filhos. <br>
+            Eu te amo infinitamente 💘
+        </p>
+    </section>
+
+    <section class="moments">
+        <h2>Nossos Momentos</h2>
+          <img id="foto" src="img.lella3.jpeg" alt="Nosso momento especial">
+        <p>
+            Cada passeio, ligação ou mensagem de bom dia me faz ter certeza de que você é a pessoa certa. <br>
+            Gosto de como você é espontânea, das suas caras engraçadas, do jeito como fala empolgada sobre o que ama. <br><br>
+            Obrigado por me deixar viver tudo isso ao seu lado. Você transforma qualquer instante em algo mágico. 💫
+        </p>
+    </section>
+
+    <section class="gallery">
+        <h2>Momentos Inesquecíveis</h2>
+        <div class="fotos">
+            <img src="img1.jpeg" alt="Foto 1">
+            <img src="img2.jpeg" alt="Foto 2">
+            <img src="img3.jpeg" alt="Foto 3">
+            <img src="img4.jpeg" alt="Foto 4">
+        </div>
+    </section>
+
+    <section class="music">
+        <h2>Nossa Música</h2>
+        <p>Clique no botão abaixo para ouvir uma canção que me lembra você 💖</p>
+        <button onclick="document.getElementById('musica').play()">Tocar Nossa Música 🎶</button>
+        <audio id="musica" controls style="margin-top: 15px;">
+            <source src="musica-romantica.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+    </section>
+
+    <footer>
+        <p>Feito com amor por Davi 💌</p>
+    </footer>
+</body>
+</html>
